@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
+h1 {
+  color: green;
+}
+h1 a {
+  color: aliceblue;
+}
+body {
+    text-align: center;
+    background: #bbadab;
+    font-family: 'Federo', sans-serif;
+    background-image: url("https://img.search.brave.com/kpIHCsC76pBBULcLu7xq1zYeSN4BMopDbM6Qa8GL41U/rs:fit:678:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5f/S2pTNGNINkM3TTY1/cGlLQ0E2UFN3SGFG/TCZwaWQ9QXBp");
+}
+h2 a:hover{
+    color:rgb(38, 0, 255);
+}
+#chess{
+    border-radius:10px;
+    box-shadow: 5px 10px orange;
+
+}
+.chessboard:hover {
+    -webkit-box-shadow: -8px -2px 21px -4px rgba(0,0,0,0.63);
+-moz-box-shadow: -8px -2px 21px -4px rgba(0,0,0,0.63);
+box-shadow: -8px -2px 21px -4px black;
+}
+#ll{
+    text-align: left;
+}
+#else {
+    color: blueviolet;
+}
+
+ul li a:hover {
+    color:violet;
+}
+a:hover{
+    text-decoration: none;
+    text-shadow: 0ex;
+}
+#but:hover{
+    background-color: orange;
+}
+
+
+#one {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
